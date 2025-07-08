@@ -1,7 +1,8 @@
 * {
     font-family: "Outfit" ,sans-serif;
-    color: hsl(24, 5%, 18%)
 }
+
+/*color: hsl(24, 5%, 18%);*/
 
 header {
     display: flex;
@@ -116,7 +117,6 @@ header {
 }
 
 .methodtitle {
-    color: hsl(14, 45%, 36%);
     font-family: "Young Serif", serif;
     font-size: 25px;
     line-height: 20%;
@@ -125,6 +125,7 @@ header {
 .methodtitle h2 {
     font-family: "Young Serif", serif;
     font-weight: normal;
+    color: hsl(14, 45%, 36%);
 }
 
 .methodlist {
@@ -140,7 +141,7 @@ header {
 }
 
 .methodlist ol p {
-    color: black;
+    color: hsl(24, 5%, 18%);
     font-weight: normal;
 }
 
@@ -158,6 +159,7 @@ header {
 }
 
 .nutritiontitle h2 {
+    color: hsl(14, 45%, 36%);
     font-family: "Young Serif", serif;
     font-weight: normal;
 }
